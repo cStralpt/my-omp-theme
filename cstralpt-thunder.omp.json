@@ -81,7 +81,7 @@
           "foreground": "p:terminal-green",
           "leading_diamond": "\ue0b2",
           "style": "diamond",
-          "template": "<p:pastal-grey>\ue601</> <p:terminal-magenta>RAM:</>: <#ffbebc>\uf0e7</>{{ round .PhysicalPercentUsed .Precision }}% (<#ff70a6>{{ (div ((sub .PhysicalTotalMemory .PhysicalFreeMemory)|float64) 1000000000.0) }}/{{ (div .PhysicalTotalMemory 1000000000.0) }}GB</>) ",
+          "template": "<p:pastal-grey>\ue601</> <p:terminal-magenta>RAM:</> <#ffbebc>\uf0e7</>{{ round .PhysicalPercentUsed .Precision }}% (<#ff70a6>{{ (div ((sub .PhysicalTotalMemory .PhysicalFreeMemory)|float64) 1000000000.0) }}/{{ (div .PhysicalTotalMemory 1000000000.0) }}GB</>) ",
           "type": "sysinfo"
         },
         {
