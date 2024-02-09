@@ -152,12 +152,6 @@
           "template": "\ue73d {{ .Full }} "
         },
         {
-          "type": "python",
-          "style": "plain",
-          "foreground": "p:terminal-yellow",
-          "template": "\uE235 {{ .Full }}"
-        },
-        {
           "type": "julia",
           "style": "plain",
           "foreground": "p:terminal-magenta",
